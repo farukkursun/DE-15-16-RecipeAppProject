@@ -89,7 +89,7 @@ export const Menu = styled.div`
   }
 `;
 export const Logo = styled(Link)`
-  background-color: gray;
+ 
 
   padding: 1rem 0;
   color: #393e46;

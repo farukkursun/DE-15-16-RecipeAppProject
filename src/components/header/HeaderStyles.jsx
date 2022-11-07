@@ -24,7 +24,7 @@ export const FormContainer = styled.form`
   flex-wrap: wrap;
   /* ekran küçülünce sıkışmasınlar,alta geçsinler */
   justify-content: center;
-  border: 2px solid white;
+ 
   border-radius: 3px;
   margin: 20px;
   /* background-color:blue; */
@@ -73,4 +73,7 @@ export const Select = styled.select`
   height: 3rem;
   border: none;
   font-size: 2rem;
+  
+  
+  
 `;

@@ -9,13 +9,9 @@ const Footer = () => {
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
       >
-       <i className="barand"> {"<Faruk>"} </i>
+       <i className="brand"> {"<Faruk>"} </i>
       </a>
-      <img
-        src={designSvg}
-        alt="design"
-        style={{ width: "40px", margin: "0  25px 0 10px" }}
-      />
+      
       <span> Copyright {new Date().getFullYear()}</span>
     </div>
   );
