@@ -46,7 +46,7 @@ const Details = () => {
             ))}
           </IngredContainer>
         </DetailPart>
-        <DetailsButton onClick={() => navigate(-1)}>geri</DetailsButton>
+        <DetailsButton onClick={() => navigate(-1)}>HOME</DetailsButton>
       </DetailContainer>
       ;
       <Footer />

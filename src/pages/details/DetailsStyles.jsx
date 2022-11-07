@@ -76,7 +76,7 @@ export const OtherPart = styled.div`
   /* üstteki bilgiler */
   background-color: lightgray;
 
-  width: 400px;
+  width: 200px;
   text-align: right;
   font-size: 1rem;
   
