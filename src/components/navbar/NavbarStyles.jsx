@@ -11,7 +11,7 @@ export const Nav = styled.div`
   /* Varsayılan olarak esnek öğeler tek bir satıra sığmaya çalışırlar. Gerektiğinde birden fazla satıra yaymak için bu özelliği kullanabilirsiniz */
 
   border-radius: 0 0 10px 10px;
-  height: 75px;
+  height: 77px;
   font-size: 1.5rem;
   background: #e1f1dd;
 `;

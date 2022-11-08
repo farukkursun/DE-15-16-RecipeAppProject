@@ -12,19 +12,27 @@ import Footer from "../../components/footer/Footer";
 const About = () => {
   return (
     <div>
-    <Navbar />
-    <AboutContainer>
-    
-      <StyledImage src={codingsvg} />
-      <span>About Frontend Developer Faruk</span>
-      <HeaderContainer></HeaderContainer>
-      <InfoContainer>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-        cupiditate quis dolor, rem nemo nesciunt iure aliquam magnam ullam
-        doloremque?
-      </InfoContainer>
-    </AboutContainer>
-    <Footer />
+      <Navbar />
+      <AboutContainer>
+        <StyledImage src={codingsvg} />
+
+        <HeaderContainer>
+          <h1>About Frontend Developer<span> Faruk</span> </h1> 
+        </HeaderContainer>
+        <InfoContainer>
+        <h2>Hi, I'am Faruk Kursun</h2>
+        <h3>I'm currently learning Frontend Development Languages.</h3>
+        <h4>
+          I've already known JS, ReactJS, ReactNative, SQL, Python.
+            
+        </h4>
+        <h3>
+          <a href="mailto:kursunomerfaruk2@gmail.com">Send email</a> :
+          kursunomerfaruk2@gmail.com
+        </h3>
+        </InfoContainer>
+      </AboutContainer>
+      <Footer />
     </div>
   );
 };

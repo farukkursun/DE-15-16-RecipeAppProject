@@ -24,6 +24,9 @@ export const StyledImage = styled.img`
 
 export const HeaderContainer = styled.div`
   background-color: whitesmoke;
+  padding: 0 1rem;
+  margin-bottom: 18px;
+  border-radius: 8px;
 `;
 
 export const InfoContainer = styled.div`
