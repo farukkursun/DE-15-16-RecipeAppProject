@@ -4,6 +4,7 @@ import dietSvg from "../../assets/diet.svg";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import {
+  Anadiv,
   DetailContainer,
   DetailPart,
   DetailsButton,
@@ -19,7 +20,7 @@ const Details = () => {
   const navigate = useNavigate();
   console.log(detay);
   return (
-    <div>
+    <Anadiv>
       <Navbar />
       <DetailContainer>
         <HeaderContainer>
@@ -29,7 +30,7 @@ const Details = () => {
         <DetailPart>
           <OtherPart>
             <p>Healtlabels</p>
-            {detay.healthLabels.map((i, index) => (
+            {detay.healthLabels.slice(0,5).map((i, index) => (
               <div key={index}>
                 <p>{i}</p>
               </div>
@@ -46,11 +47,11 @@ const Details = () => {
             ))}
           </IngredContainer>
         </DetailPart>
-        <DetailsButton onClick={() => navigate(-1)}>HOME</DetailsButton>
+        
       </DetailContainer>
-      ;
+      <DetailsButton onClick={() => navigate(-1)}>HOME</DetailsButton>
       <Footer />
-    </div>
+    </Anadiv>
   );
 };
 

@@ -17,7 +17,7 @@ export const DetailPart = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   margin: 1rem;
   border: 1px solid white;
@@ -25,10 +25,11 @@ export const DetailPart = styled.div`
   background-color: #e1f1dd;
   /* background-color: #e1f1dd; */
   /* height: calc(100vh - 300px); */
-  @media (max-width: 1250px) {
+  @media (max-width: 750px) {
     justify-content: center;
-
+    flex-direction: column;
     border: 1px solid red;
+    padding: 0.5rem;
   }
 `;
 
@@ -68,27 +69,33 @@ export const IngredContainer = styled.div`
   /* alttaki bilgiler, içindekiler */
   width: 400px;
   font-size: 1rem;
-  margin: rem;
+  margin-left: 2rem;
   background-color: lightgray;
 `;
 
 export const OtherPart = styled.div`
   /* üstteki bilgiler */
   background-color: lightgray;
-
+margin-right: 2rem;
   width: 200px;
-  text-align: right;
+  text-align: center;
   font-size: 1rem;
   
 `;
 export const DetailsButton = styled.button`
   /* view more  buton */
-  background-color: #00adb5;
-  padding: 5px;
+  background-color:  #02475e;
+  color: white;
+  padding: 1rem;
   /* outline: none; */
-  height: 2rem;
+  
   border: none;
-  margin: 10px;
+ 
   border-radius: 3px;
   cursor: pointer;
 `;
+export const Anadiv= styled.div`
+text-align: center;
+
+
+`

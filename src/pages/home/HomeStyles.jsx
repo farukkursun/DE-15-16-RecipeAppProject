@@ -64,6 +64,7 @@ export const ImgDiv = styled.div`
   margin: 50px;
   /* background-color: #00adb5; */
   background-color: #e1f1dd;
+  border-radius: 8px;
 `;
 
 export const HomeImg = styled.img`
