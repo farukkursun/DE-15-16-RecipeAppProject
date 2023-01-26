@@ -18,7 +18,8 @@ export const AboutContainer = styled.div`
   }
 `;
 export const StyledImage = styled.img`
-  width: 500px;
+  width: 300px;
+  height: 300px;
   margin-bottom: 2rem;
 `;
 

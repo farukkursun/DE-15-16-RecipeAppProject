@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import {
   FormContainer,
   Header,
@@ -11,17 +11,14 @@ import {
 import mealSvg from "../../assets/meal.svg";
 import { useNavigate } from "react-router-dom";
 const Login = () => {
-const[nickName, setNickname]=useState();
-const navigate=useNavigate();
+  const [nickName, setNickname] = useState();
+  const navigate = useNavigate();
 
+  const backendeYolla = (e) => {
+    e.preventDefault();
 
-const backendeYolla=(e)=>{
-e.preventDefault();
- 
-navigate("/home")
-}
-
-
+    navigate("/home");
+  };
 
   return (
     <LoginContainer>
@@ -30,10 +27,14 @@ navigate("/home")
         <Header>{"<Clarusway/>"}Recipe</Header>
         {/* login sayfasındaki yuvarlak olayın içindeki yazı (Header) */}
 
-        <StyledForm onSubmit={backendeYolla} >
+        <StyledForm onSubmit={backendeYolla}>
           {/* 3 kutunun olduğu form  */}
-          <StyledInput type="text" placeholder="username" required onChange={(e)=>setNickname(e.target.value)}/>
-
+          <StyledInput
+            type="text"
+            placeholder="username"
+            required
+            onChange={(e) => setNickname(e.target.value)}
+          />
 
           <StyledInput type="password" placeholder="password" required />
           <StyledButton type="submit">Login</StyledButton>
@@ -44,17 +45,3 @@ navigate("/home")
 };
 
 export default Login;
-
-
-
-
-
-
-
-
-
-
-
-
-
-

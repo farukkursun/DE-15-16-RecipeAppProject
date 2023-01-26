@@ -29,7 +29,7 @@ const Details = () => {
         </HeaderContainer>
         <DetailPart>
           <OtherPart>
-            <p>Healtlabels</p>
+          <p>Healtlabels</p>
             {detay.healthLabels.slice(0,5).map((i, index) => (
               <div key={index}>
                 <p>{i}</p>
@@ -40,6 +40,7 @@ const Details = () => {
             <img src={detay.image} alt="" />
           </ImgContainer>
           <IngredContainer>
+          <p>Ingredientlines</p>
             {detay.ingredientLines.map((i, index) => (
               <div key={index}>
                 <p>{i}</p>
