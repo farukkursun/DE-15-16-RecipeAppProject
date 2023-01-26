@@ -15,7 +15,7 @@ Responsive Recipe App made using React and Bootstrap.
 ### Installation Options
 
 ```
-$ git clone https://github.com/farukkursun/movie-app
+$ git clone https://github.com/farukkursun/RecipeApp
 ```
 
 ```
@@ -29,7 +29,7 @@ $ npm start
 ### Or
 
 ```
-$ git clone https://github.com/farukkursun/movie-app
+$ git clone https://github.com/farukkursun/RecipeApp
 ```
 
 ```
